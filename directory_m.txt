@@ -3,3 +3,5 @@ data.php
 style.css
 mobile.css
 script.js
+images \
+|- 画像
