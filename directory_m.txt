@@ -5,3 +5,5 @@ mobile.css
 script.js
 images \
 |- 画像
+pdfs \
+|- 投稿されたpdf
