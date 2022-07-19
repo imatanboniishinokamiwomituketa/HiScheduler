@@ -1,0 +1,21 @@
+{
+    "name": "HiScheduler",
+    "short_name": "HiScheduler",
+    "description": "研修スケジューラー",
+    "start_url": "/hischeduler/index.html",
+    "background_color"  : "#ffffff",
+    "theme_color"       : "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./images/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/icon256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}

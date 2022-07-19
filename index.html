@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./photos/icon256.png">
+    <script src="./jquery.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <title>HiScheduler</title>
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+    <div class="information">
+        <div class="organization"></div>
+        <div class="group"></div>
+    </div>
+    <div class="addGroup">
+        <p>パスワードは半角英字, 半角数字, 半角記号をそれぞれ1文字以上含んだ8文字以上での設定を推奨します</p>
+        <form onsubmit="return false">
+            <input type="text" id="group_addGroup" placeholder="グループ名">
+            <input type="password" id="password_addGroup" placeholder="パスワード">
+            <input type="password" id="admin_addGroup" placeholder="管理者パスワード">
+            <input type="submit" id="submit_addGroup" value="追加">
+        </form>
+    </div>
+    <div class="joinGroup">
+        <form onsubmit="return false">
+            <input type="button" value="管理者はこちら" id="admin_login">
+            <input type="button" value="戻る" id="normal_login" style="display: none;">
+            <input type="text" id="group_join" placeholder="グループ名">
+            <input type="password" id="password_join" placeholder="パスワード">
+            <input type="password" id="admin_join" placeholder="管理者パスワード" style="display: none;">
+            <input type="submit" id="submit_join" value="参加">
+        </form>
+    </div>
+    <div class="login">
+        <form onsubmit="return false">
+            <input type="text" id="organization_login" placeholder="組織名">
+            <input type="password" id="password_login" placeholder="パスワード">
+            <input type="submit" id="submit_login" value="ログイン">
+        </form>
+    </div>
+    <div class="addOrganization">
+        <p>パスワードは半角英字, 半角数字, 半角記号をそれぞれ1文字以上含んだ8文字以上での設定を推奨します</p>
+        <form onsubmit="return false">
+            <input type="text" id="organization_add" placeholder="組織名">
+            <input type="password" id="password_add" placeholder="パスワード">
+            <input type="submit" id="submit_add" value="追加">
+        </form>
+    </div>
+    <!-- <div class="admin">
+        <form onsubmit="return false">
+            <input type="password" id="password_add" placeholder="パスワード">
+            <input type="submit" id="submit_add" value="管理者権限を取得">
+        </form>
+    </div> -->
+    <div class="logout">
+        <input type="submit" id="submit_logout" value="ログアウト">
+    </div>
+</body>
+
+</html>
