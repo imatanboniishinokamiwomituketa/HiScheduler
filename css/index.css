@@ -1,0 +1,28 @@
+body {
+    margin: 0 0;
+}
+.calendar{
+    border-collapse: collapse;
+}
+table{
+    margin: 0 auto;
+}
+table td, table th {
+    /* text-align: center; */
+    border: solid 1px black;
+    /* border: 1px solid #000; */
+    /* border-bottom: none; */
+    width: 150px;
+}
+table th {
+    text-align: center;
+    height: 20px;
+    /* width: 50px; */
+}
+table td {
+    text-align: left;
+    vertical-align: top;
+    font-size: 15px;
+    height: 80px;
+    /* width: 150px; */
+}
